@@ -4,7 +4,7 @@ import { AuthConfig } from 'angular-oauth2-oidc';
 
 export const authConfig: AuthConfig = {
   // Url of the Identity Provider
-  issuer: 'https://identity-nirvana.auth.us-east-1.amazoncognito.com/authorize',
+  issuer: 'https://identity-nirvana.auth.us-east-1.amazoncognito.com/oauth2/authorize',
 
   // URL of the SPA to redirect the user to after login
   redirectUri: window.location.origin + '/index.html',
